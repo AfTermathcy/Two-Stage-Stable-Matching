@@ -3,7 +3,7 @@ We simulate the two stage stable matching problem on uniform random markets. To 
 In our implementation, we use $A$ to represent schools, and $B$ to represent students. 
 
 ## input_generate.py
-This file generates the preference profiles of the aggregate market. We assume that all students and schools present in the first stage, and a subset of students and schools remain in the second stage.
+This file generates the preference profiles of the aggregate market. We assume that all students and schools are present in the first stage, and a subset of students and schools remain in the second stage.
 
 `instance_uniform_random_oneone` generates the aggregate market. In our implementation, we choose `nun_schools = num_students = 50`.
 
