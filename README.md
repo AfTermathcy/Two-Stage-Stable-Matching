@@ -1,6 +1,6 @@
 # Two-Stage-Stable-Matching
-We simulate the two stage stable matching problem on uniform random markets. To reproduce them, one needs to rerun the files in order. The following numerical experiments use a reduction to a minimum s-t cut problem over the poset of edges defined in the extended abstract: "Two-stage stochastic stable matching." International Conference on Integer Programming and Combinatorial Optimization. Cham: Springer Nature Switzerland, 2024. We note that this is equivalent to a minimum s-t cut problem over the poset of rotations defined in the full version paper "Minimum Cut Representability of Stable Matching Problems" Submitted to Operations Research."
-In our implementation, we use $A$ to represent schools, and $B$ to represent students. 
+We simulate the two stage stable matching problem on uniform random markets. To reproduce the results, one needs to rerun the files in order. The following numerical experiments use a reduction to a minimum s-t cut problem over the poset of edges defined in the extended abstract: "Two-stage stochastic stable matching" which appeared at the International Conference on Integer Programming and Combinatorial Optimization 2024. We note that this is equivalent to a minimum s-t cut problem over the poset of rotations defined in the full version paper "Minimum Cut Representability of Stable Matching Problems" Submitted to Operations Research.
+In the following, we use $A$ to represent schools, and $B$ to represent students.
 
 ## input_generate.py
 This file generates the preference profiles of the aggregate market. We assume that all students and schools are present in the first stage, and a subset of students and schools remain in the second stage.
